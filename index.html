@@ -1,0 +1,197 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>École Excellence - Site Officiel</title>
+    <link rel="stylesheet" href="style-new.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>École Excellence</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#courses">Formations</a></li>
+                <li><a href="#testimonials">Témoignages</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Votre avenir commence ici</h1>
+            <p class="hero-subtitle">Formation d'excellence pour les leaders de demain depuis 1995</p>
+            <div class="hero-buttons">
+                <button class="cta-button primary">
+                    <span>🎓 Découvrir nos formations</span>
+                </button>
+                <button class="cta-button secondary" onclick="location.href='#contact'">
+                    <span>📞 Nous contacter</span>
+                </button>
+            </div>
+            <div class="hero-scroll-indicator">
+                <span>Défiler pour découvrir</span>
+                <div class="scroll-arrow">↓</div>
+            </div>
+        </div>
+    </section>
+
+        <section id="about" class="about-section">
+            <h2>À propos de notre école</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Notre histoire</h3>
+                    <p>Fondée en 1995, l'École Excellence s'engage à fournir une éducation de qualité supérieure à ses étudiants. Notre mission est de former les leaders de demain.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h4>500+</h4>
+                        <p>Étudiants</p>
+                    </div>
+                    <div class="stat">
+                        <h4>25+</h4>
+                        <p>Années d'expérience</p>
+                    </div>
+                    <div class="stat">
+                        <h4>98%</h4>
+                        <p>Taux de réussite</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="courses-section">
+            <h2>Nos Formations</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <h3>Informatique</h3>
+                    <p>Développement web, programmation, réseaux</p>
+                </div>
+                <div class="course-card">
+                    <h3>Commerce</h3>
+                    <p>Management, marketing, finance</p>
+                </div>
+                <div class="course-card">
+                    <h3>Langues</h3>
+                    <p>Anglais, Espagnol, Allemand</p>
+                </div>
+            </div>
+        </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <h2>Ce que disent nos étudiants et parents</h2>
+        <div class="testimonial">
+            <div class="testimonial-content">
+                <p>"L'École Excellence a transformé mon parcours éducatif. Les enseignants dévoués et le soutien personnalisé font toute la différence!"</p>
+                <div class="testimonial-author">
+                    <h4>Marie Dupont</h4>
+                    <p>Diplômée en Informatique, 2023</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-content">
+                <p>"En tant que parent, je suis impressionné par l'engagement de l'école envers chaque élève. Une véritable communauté éducative!"</p>
+                <div class="testimonial-author">
+                    <h4>Jean Martin</h4>
+                    <p>Parent d'élève</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-controls">
+            <button class="testimonial-prev">←</button>
+            <button class="testimonial-next">→</button>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <h2>Moments de vie à l'école</h2>
+        <p class="section-subtitle">Découvrez notre environnement d'apprentissage dynamique</p>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="img2.avif" alt="Campus moderne">
+                <div class="gallery-caption">Notre campus moderne</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Salle de classe">
+                <div class="gallery-caption">Salles de classe équipées</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Événement étudiant">
+                <div class="gallery-caption">Événements étudiants</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Laboratoire informatique">
+                <div class="gallery-caption">Laboratoires high-tech</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://example.com/path/to/campus-image.jpg" alt="Campus Image">
+                <div class="gallery-caption">Notre campus</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://example.com/path/to/second-image.jpg" alt="Second Image">
+                <div class="gallery-caption">Deuxième image</div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-caption">Troisième image</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Prêt à rejoindre notre communauté?</h2>
+        <p class="section-subtitle">Nous sommes là pour répondre à toutes vos questions</p>
+        
+        <div class="contact-info">
+            <div class="contact-method">
+                <h3>📞 Téléphone</h3>
+                <p>+33 1 23 45 67 89</p>
+            </div>
+            <div class="contact-method">
+                <h3>📧 Email</h3>
+                <p>contact@ecole-excellence.fr</p>
+            </div>
+            <div class="contact-method">
+                <h3>📍 Adresse</h3>
+                <p>123 Avenue de l'Éducation, 75000 Paris</p>
+            </div>
+        </div>
+
+        <form id="contact-form" action="backend/contact.php" method="POST">
+            <div class="form-group">
+                <label for="name">Votre nom complet *</label>
+                <input type="text" id="name" name="name" placeholder="Ex: Jean Dupont" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Votre email *</label>
+                <input type="email" id="email" name="email" placeholder="exemple@email.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Votre message *</label>
+                <textarea id="message" name="message" placeholder="Dites-nous comment nous pouvons vous aider..." rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-button">
+                <span class="button-text">Envoyer mon message</span>
+                <span class="button-loading">Envoi en cours...</span>
+            </button>
+        </form>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 École Excellence. Tous droits réservés.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
